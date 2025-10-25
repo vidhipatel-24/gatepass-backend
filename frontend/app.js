@@ -1,4 +1,4 @@
-const API = "http://localhost:3000/api";
+const API_BASE = 'https://gatepass-backend.onrender.com/api';
 
 const studentSec = document.getElementById("student");
 const modSec = document.getElementById("moderator");
