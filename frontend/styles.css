@@ -1,0 +1,62 @@
+:root {
+  --wheat: #f5deb3;
+  --red: #8f191d;
+  --teal: #03505d;
+  --white: #ffffff;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(180deg, var(--wheat) 0%, var(--white) 100%);
+  margin: 0;
+  color: var(--teal);
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background: var(--white);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+h1 {
+  color: var(--red);
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  background: var(--red);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button.active {
+  background: var(--teal);
+}
+
+.hidden {
+  display: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
